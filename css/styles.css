@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 body {
@@ -17,13 +18,31 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
+  border-width: 3px;
   padding: 10px;
   box-shadow: 6px 7px;
 }
 
 section:not(.aboutme):hover {
-  border-style: dotted;
+  border-width: 3px;
   box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.75);
+  border-color: rgba(0, 0, 0, 0.75);
+  transition: 0.15s ease-in-out;
+}
+
+.description {
+  width: 200px;
+}
+
+.description h3 {
+  text-align: center;
+}
+
+.contact {
+  width: 200px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 ul {
