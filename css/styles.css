@@ -83,6 +83,11 @@ ul {
 	list-style: none;
 }
 
+.nav li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
 .profilepicture {
 	width: 150px;
 	margin-left: auto;
