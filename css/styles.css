@@ -18,6 +18,11 @@ section {
   box-shadow: 6px 7px;
 }
 
+section:not(.aboutme):hover {
+  border-style: dotted;
+  box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
 ul {
   list-style: none;
 }
