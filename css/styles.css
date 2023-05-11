@@ -1,67 +1,75 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font-family: sans-serif;
-  padding: 20px;
-  margin: auto;
-  max-width: 500px;
-  min-width: 300px;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+main {
+	padding: 20px;
+	margin: auto;
+	max-width: 500px;
+	min-width: 300px;
 }
 
 section {
-  border-style: solid;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-  border-width: 3px;
-  padding: 10px;
-  box-shadow: 6px 7px;
+	border-style: solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	border-width: 3px;
+	padding: 10px;
+	box-shadow: 6px 7px;
 }
 
 section:not(.aboutme):hover {
-  border-width: 3px;
-  box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.75);
-  border-color: rgba(0, 0, 0, 0.75);
-  transition: 0.15s ease-in-out;
+	border-width: 3px;
+	box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.75);
+	border-color: rgba(0, 0, 0, 0.75);
+	transition: 0.15s ease-in-out;
 }
 
 .description {
-  width: 200px;
+	width: 200px;
 }
 
 .description h3 {
-  text-align: center;
+	text-align: center;
 }
 
 .contact {
-  width: 200px;
-  text-align: right;
-  margin-left: auto;
-  margin-right: 0;
+	width: 200px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: 0;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 figure {
-  width: 150px;
-  margin-left: auto;
-  margin-right: 0;
+	width: 150px;
+	margin-left: auto;
+	margin-right: 0;
 }
 
 img {
-  width: 100%;
-  border-radius: 100%;
-  border-style: dotted;
-  border-width: 2px;
+	width: 100%;
+	border-radius: 100%;
+	border-style: dotted;
+	border-width: 2px;
 }
 
 figcaption {
-  text-align: center;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
