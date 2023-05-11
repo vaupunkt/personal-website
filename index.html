@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Veliko Kardziev</title>
   </head>
   <body>
@@ -11,41 +12,39 @@
       <h1>Veliko Kardziev</h1>
       <nav>
         <a href="#aboutme">About me</a>
-        <a href="contact">Contact</a>
-        <a href="biography">Biography</a>
+        <a href="#contact">Contact</a>
+        <a href="#biography">Biography</a>
       </nav>
     </header>
     <main>
-      <section id="aboutme">
+      <section class="aboutme" id="aboutme">
         <h2>About Me</h2>
         <figure>
-        <img
-          src="/assets/profilepicture.jpeg"
-          width="150"
-          alt="A picture of me"
-        />
-        <figcaption>Hi, it's me!</figcaption>
+          <img src="/assets/profilepicture.jpeg" alt="A picture of me" />
+          <figcaption>Hi, it's me!</figcaption>
         </figure>
-        <p id="description">
+        <section class="description">
           <h3>Loving</h3>
-          <ul>
+          <ul class="thingsilove">
             <li>Nature 🌳</li>
             <li>Urban Mobility 🚴‍♂️</li>
             <li>Sustainability ♻️</li>
             <li>Social Economy ✌🏼</li>
             <li>Pretzels 🥨</li>
           </ul>
-        </p>
+        </section>
       </section>
-      <section id="contact">
+      <section class="contact" id="contact">
         <h2>Let's team up</h2>
-        <ul>
-            <li>📍Munich</li>
-            <li><a href="https://github.com/vaupunkt">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/velikokardziev/">LinkedIn</a></li>
+        <ul class="contactlinks">
+          <li>📍Munich</li>
+          <li><a href="https://github.com/vaupunkt">GitHub</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/velikokardziev/">LinkedIn</a>
+          </li>
         </ul>
       </section>
-      <section id="biography">
+      <section class="biography" id="biography">
         <h2>Biography</h2>
       </section>
     </main>
