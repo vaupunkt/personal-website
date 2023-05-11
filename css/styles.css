@@ -7,6 +7,9 @@
 body {
   font-family: sans-serif;
   padding: 20px;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
 }
 
 section {
