@@ -7,6 +7,7 @@
 body {
 	font-family: sans-serif;
 	line-height: 1.5;
+	padding: 20px;
 }
 
 header {
@@ -24,15 +25,21 @@ header {
 }
 
 main {
-	padding: 20px;
-	margin: auto;
-	max-width: 500px;
+	max-width: 800px;
 	min-width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-around;
+	margin: auto;
 }
 
 table {
 	width: 100%;
-	text-align: center;
+}
+
+th {
+	text-align: left;
 }
 
 tr:hover {
@@ -41,15 +48,28 @@ tr:hover {
 
 section {
 	border-style: solid;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border-radius: 20px;
 	border-width: 3px;
 	padding: 10px;
+	min-width: 150px;
+	max-width: 700px;
 }
 
 .aboutme {
-	box-shadow: 5px 5px 0px black;
+	box-shadow: 6px 6px 0px black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.infosaboutme {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .box {
@@ -86,21 +106,12 @@ section {
 	text-align: center;
 }
 
-.contact {
-	width: 200px;
-	text-align: right;
-	margin-left: auto;
-	margin-right: 0;
-}
-
 ul {
 	list-style: none;
 }
 
 .profilepicture {
 	width: 150px;
-	margin-left: auto;
-	margin-right: 0;
 }
 
 .profilepicture > img {
@@ -121,6 +132,33 @@ a {
 
 footer {
 	text-align: center;
-	padding: 10px;
+	padding: 30px;
 	font-size: small;
+}
+
+.techstack {
+	min-width: 200px;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.techstacklist {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.techstacklist > li {
+	border-radius: 10px;
+	padding: 6px;
+	background-color: rgb(116, 116, 116);
+	color: white;
+	font-size: 0.9rem;
+}
+
+.contactlinks {
+	margin: auto;
 }
