@@ -9,13 +9,6 @@ body {
 	line-height: 1.5;
 }
 
-main {
-	padding: 20px;
-	margin: auto;
-	max-width: 500px;
-	min-width: 300px;
-}
-
 header {
 	padding: 10px;
 	text-align: center;
@@ -23,6 +16,13 @@ header {
 
 nav {
 	font-size: small;
+}
+
+main {
+	padding: 20px;
+	margin: auto;
+	max-width: 500px;
+	min-width: 300px;
 }
 
 section {
@@ -108,4 +108,10 @@ figcaption {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+footer {
+	text-align: center;
+	font-weight: lighter;
+	padding: 10px;
 }
