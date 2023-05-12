@@ -25,6 +25,15 @@ main {
 	min-width: 300px;
 }
 
+table {
+	width: 100%;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 section {
 	border-style: solid;
 	margin-top: 20px;
@@ -112,6 +121,6 @@ a {
 
 footer {
 	text-align: center;
-	font-weight: lighter;
 	padding: 10px;
+	font-size: small;
 }
