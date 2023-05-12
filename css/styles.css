@@ -13,6 +13,10 @@ body {
 header {
 	padding: 10px;
 	text-align: center;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 }
 
 .nav {
@@ -32,14 +36,20 @@ main {
 	gap: 15px;
 	justify-content: space-around;
 	margin: auto;
+	margin-top: 80px;
 }
 
 table {
 	width: 100%;
+	border-collapse: collapse;
 }
 
 th {
 	text-align: left;
+}
+td,
+th {
+	padding: 5px 5px 5px 0;
 }
 
 tr:hover {
@@ -55,6 +65,7 @@ section {
 	padding: 10px;
 	min-width: 150px;
 	max-width: 700px;
+	height: 100%;
 }
 
 .aboutme {
@@ -157,4 +168,20 @@ footer {
 	background-color: rgb(116, 116, 116);
 	color: white;
 	font-size: 0.9rem;
+}
+
+.biography {
+	max-width: 600px;
+}
+
+.date {
+	min-width: 150px;
+}
+
+.biographyemoji {
+	width: 10px;
+}
+
+td:not(.date):not(.biographyemoji) {
+	min-width: 200px;
 }
