@@ -87,7 +87,6 @@ section {
 	z-index: -1;
 	border-style: none;
 	background-color: black;
-
 	transform: translate(0%, 0%);
 }
 
@@ -173,6 +172,7 @@ td:not(.date):not(.biographyemoji) {
 	background-color: rgb(116, 116, 116);
 	color: white;
 	font-size: 0.9rem;
+	position: relative;
 }
 
 .biography {
