@@ -41,23 +41,6 @@ main {
 	margin-top: 80px;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-th {
-	text-align: left;
-}
-td,
-th {
-	padding: 5px 5px 5px 0;
-}
-
-tr:hover {
-	background-color: rgba(0, 0, 0, 0.1);
-}
-
 section {
 	border-style: solid;
 	margin-top: 10px;
@@ -144,10 +127,29 @@ a {
 	color: black;
 }
 
-footer {
-	text-align: center;
-	padding: 30px 0 0 0;
-	font-size: small;
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+}
+td,
+th {
+	padding: 5px 5px 5px 0;
+}
+
+tr:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.biographyemoji {
+	width: 10px;
+}
+
+td:not(.date):not(.biographyemoji) {
+	min-width: 200px;
 }
 
 .techstack {
@@ -181,10 +183,8 @@ footer {
 	min-width: 150px;
 }
 
-.biographyemoji {
-	width: 10px;
-}
-
-td:not(.date):not(.biographyemoji) {
-	min-width: 200px;
+footer {
+	text-align: center;
+	padding: 30px 0 0 0;
+	font-size: small;
 }
