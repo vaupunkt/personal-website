@@ -6,6 +6,20 @@
 	padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+	.infosaboutme {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+		justify-content: space-between;
+		width: 300px;
+	}
+	td.date {
+		max-width: 80px;
+	}
+}
+
 body {
 	font-family: sans-serif;
 	line-height: 1.5;
@@ -16,7 +30,7 @@ header {
 	padding: 10px;
 	text-align: center;
 	background-color: white;
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	top: 0;
 	z-index: 1;
@@ -25,7 +39,6 @@ header {
 
 .nav {
 	font-size: small;
-	width: 300px;
 	margin: auto;
 	display: flex;
 	justify-content: center;
@@ -33,14 +46,11 @@ header {
 }
 
 main {
-	max-width: 800px;
-	min-width: 300px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
 	justify-content: space-around;
 	margin: auto;
-	margin-top: 80px;
 }
 
 section {
@@ -50,10 +60,8 @@ section {
 	border-radius: 20px;
 	border-width: 3px;
 	padding: 10px;
-	min-width: 150px;
-	max-width: 700px;
 	height: 100%;
-	scroll-margin-top: 90px;
+	scroll-margin: 100px;
 }
 
 .aboutme {
@@ -61,13 +69,14 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	min-width: 200px;
+	max-width: 500px;
 }
 
 .infosaboutme {
 	display: flex;
 	align-items: center;
-	gap: 10px;
-	flex-wrap: wrap;
+	gap: 40px;
 	justify-content: space-around;
 }
 
@@ -141,6 +150,10 @@ th {
 	padding: 5px 5px 5px 0;
 }
 
+td.date {
+	width: 150px;
+}
+
 tr:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -149,15 +162,15 @@ tr:hover {
 	width: 10px;
 }
 
-td:not(.date):not(.biographyemoji) {
-	min-width: 200px;
+td.biographycontent {
+	min-width: 150px;
 }
 
 .techstack {
-	min-width: 200px;
-	max-width: 300px;
 	display: flex;
 	flex-direction: column;
+	min-width: 250px;
+	max-width: 350px;
 }
 
 .techstacklist {
@@ -175,14 +188,6 @@ td:not(.date):not(.biographyemoji) {
 	color: white;
 	font-size: 0.9rem;
 	position: relative;
-}
-
-.biography {
-	max-width: 600px;
-}
-
-.date {
-	min-width: 150px;
 }
 
 footer {
