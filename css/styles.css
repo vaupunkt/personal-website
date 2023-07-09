@@ -51,6 +51,7 @@ main {
 	gap: 15px;
 	justify-content: space-around;
 	margin: auto;
+	margin-top: 5px;
 }
 
 section {
