@@ -27,8 +27,4 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 Feel free to fork this repository and submit pull requests. Any contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License.
-
 Thank you for visiting my portfolio website!
